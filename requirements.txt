@@ -3,3 +3,8 @@ pandas
 matplotlib
 seaborn
 numpy
+sklearn.preprocessing
+scikit-learn
+sklearn
+tensorflow
+xgboost
