@@ -1,19 +1,20 @@
-# 🎈 Blank app template
+# Sales Forecasting App
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit web application built with Python that accepts CSV files and performs prediction using machine learning models such as Gradient Descent, Random Forest, and Neural Networks. The app is designed to work with structured tabular data and gives users quick insights through regression models.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- Upload any CSV file with structured data
+- Choose between multiple ML models:
+  - Gradient Descent Regression
+  - Random Forest Regressor
+  - Neural Network Regressor
+- Automatically splits data into training and testing sets
+- Displays model performance metrics (MAE, RMSE, R²)
+- Shows prediction outputs and charts for better interpretation
 
-1. Install the requirements
+## Tech Stack
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- **Frontend:** [Streamlit](https://streamlit.io/)
+- **Backend:** Python
+- **ML Models:** scikit-learn, TensorFlow/Keras (for Neural Network)
